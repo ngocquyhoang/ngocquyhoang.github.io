@@ -1,0 +1,83 @@
+/*SETTING DEFAULT*/
+
+/*HEADER*/
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'GeosansLight';
+	font-size: 16px;
+}
+@font-face {
+    font-family: Bariol;
+    src: url(../Fonts/bariol_regular-webfont.ttf);
+}
+@font-face {
+    font-family: GeosansLight;
+    src: url(../Fonts/GeosansLight.ttf);
+}
+body{
+	
+}
+.container{
+	text-align: center;
+	background-image: url('../Images/bg.jpg');
+	height: 800px;
+}
+.header-bar{
+	background-color: rgba(255,255,255,0.4);
+}
+.logo {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+.logo .logo-text{
+	font-family: 'Lemon', cursive; 
+	font-size: 35px;
+	color: #fff;
+}
+.logo .sologan{
+	display: block;
+	font-family: 'Bariol';
+	font-size:20px;
+	margin-top: 2px;
+	color: #fff;
+}
+.navigation{
+	position: absolute;
+	top: 15.5px;
+	right: 20px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+}
+.navigation li{
+	float: left;
+	list-style: none;
+	padding: 12px 25px;
+}
+.navigation li a{
+	color: #fff;
+	text-decoration: none;
+}
+.top-content{
+	position: relative;
+	width: 1000px;
+	height: 75px;
+	display: inline-block;
+}
+.home .show-me-button{
+	width: 250px;
+	height: 250px;
+	border-radius: 300px;
+	background-color: rgba(255,255,255,0.45);
+	margin: 0px auto;
+	color: #fff;
+	margin-top: 200px;
+}
+.home .show-me-button p{
+	padding-top: 95px;
+	font-size: 30px;
+	font-family: Bariol;
+}
