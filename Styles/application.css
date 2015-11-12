@@ -15,6 +15,14 @@
     font-family: GeosansLight;
     src: url(../Fonts/GeosansLight.ttf);
 }
+::-moz-selection { /* Code for Firefox */
+    color: #FF2D55;
+}
+
+::selection {
+    color: #FF2D55;
+}
+
 /*SECTION 1*/
 .container{
 	text-align: center;
@@ -145,18 +153,18 @@
 	margin-top: 200px;
 }
 .about .des-question{
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Lemon', cursive;
 	float: left;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 .about .des-about{
 	font-size: 20px;
 }
 .line-hoz{
 	width: 2px;
-	height: 175px;
+	height: 190px;
 	background-color: #4d4d4d;
 	float: left;
 	margin:0px 45px;
