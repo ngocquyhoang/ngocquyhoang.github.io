@@ -90,8 +90,8 @@ body{
 	font-family: Bariol;
 }
 .avatar{
-	padding-top: 5px;
-	width: 240px;
+	padding-top: 2px;
+	width: 246px;
 	border-radius: 200px;
 	display: none;
 }
@@ -115,16 +115,17 @@ body{
 .name, .job-1, .job-2{
 	font-size: 30px;
 	position: absolute;
-	width: 300px;
 	text-align: left;
 	left: 30px;
 	display: none;
 }
 .name{
 	top: 0px;
+	width: 208px;
 }
 .job-1{
 	top: 45px;
+	width: 244px;
 }
 .job-2{
 	top: 90px;
