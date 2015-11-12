@@ -15,9 +15,7 @@
     font-family: GeosansLight;
     src: url(../Fonts/GeosansLight.ttf);
 }
-body{
-	
-}
+/*SECTION 1*/
 .container{
 	text-align: center;
 	background-image: url('../Images/bg.jpg');
@@ -134,3 +132,41 @@ body{
 .job-2{
 	top: 90px;
 }
+/*SECTION 2*/
+.about{
+	width: 100%;
+	background-color: #fff;
+	color: #4d4d4d;
+	text-align: center;
+}
+.about .about-content{
+	width: 1000px;
+	display: inline-block;
+	margin-top: 200px;
+}
+.about .des-question{
+	font-size: 30px;
+	font-family: 'Lemon', cursive;
+	float: left;
+	display: inline-block;
+	margin-top: 50px;
+}
+.about .des-about{
+	font-size: 20px;
+}
+.line-hoz{
+	width: 2px;
+	height: 175px;
+	background-color: #4d4d4d;
+	float: left;
+	margin:0px 45px;
+}
+.des-about{
+	text-align: left;
+}
+.dif-text{
+	font-family: 'Bariol';
+	font-size: 30px;
+	font-weight: bold;
+}
+

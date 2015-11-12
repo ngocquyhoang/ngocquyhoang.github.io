@@ -1,16 +1,18 @@
 $(document).ready(function() {
 	setHeightContainer();
 	setHeightHome();
+	setHeightAbout();
 	$('.show-me-button').click(function() {
 		homeShow();
 	});
 });
-$(document).resize(function() {
-	setHeight();
-});
 function  setHeightContainer () {
 	var height = $( window ).height();
 	$('.container').height(height);
+}
+function setHeightAbout () {
+	var height = $( window ).height();
+	$('.about').height(height);
 }
 function setHeightHome () {
 	var height = $( window ).height();
