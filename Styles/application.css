@@ -67,17 +67,65 @@ body{
 	height: 75px;
 	display: inline-block;
 }
+.home{
+	width: 100%;
+	display: block;
+}
+.home .home-content{
+	display: inline-block;
+	margin-top: 130px;
+}
 .home .show-me-button{
 	width: 250px;
 	height: 250px;
 	border-radius: 300px;
-	background-color: rgba(255,255,255,0.45);
+	background-color: rgba(255,255,255,0.4);
 	margin: 0px auto;
 	color: #fff;
-	margin-top: 200px;
+	float: left;
 }
 .home .show-me-button p{
-	padding-top: 95px;
+	padding-top: 105px;
 	font-size: 30px;
 	font-family: Bariol;
+}
+.avatar{
+	padding-top: 5px;
+	width: 240px;
+	border-radius: 200px;
+	display: none;
+}
+.home .details-me{
+	color: #fff;
+	position: relative;
+	width: 332px;
+	height: 125px;
+	float: left;
+	margin-top: 62.5px;
+	margin-left: 50px;
+	display: none;
+}
+.home .details-me .slat-text{
+	background-color: #fff;
+	display: block;
+	width: 2px;
+	height: 125px;
+	display: none;
+}
+.name, .job-1, .job-2{
+	font-size: 30px;
+	position: absolute;
+	width: 300px;
+	text-align: left;
+	left: 30px;
+	display: none;
+}
+.name{
+	top: 0px;
+}
+.job-1{
+	top: 45px;
+}
+.job-2{
+	top: 90px;
 }
