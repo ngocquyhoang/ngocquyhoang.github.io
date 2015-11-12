@@ -1,5 +1,5 @@
 /*SETTING DEFAULT*/
-
+/*@author NGOC QUY HOANG*/
 /*HEADER*/
 *{
 	margin:0px;
@@ -18,11 +18,16 @@
 ::-moz-selection { /* Code for Firefox */
     color: #FF2D55;
 }
-
 ::selection {
     color: #FF2D55;
 }
-
+html, body{
+	height: 100%; 
+	overflow: hidden;
+}
+#mCSB_1_container{
+	margin-right: 0px;
+}
 /*SECTION 1*/
 .container{
 	text-align: center;
@@ -177,4 +182,29 @@
 	font-size: 30px;
 	font-weight: bold;
 }
+/*SECTION 3*/
+.experience{
+	width: 100%;
+	background-image: url('../Images/bg4.jpg');
+	position: relative;
+}
+.experience-content {
+	position: absolute;
+	width: 1000px;
+	height: 80%;
+	top: 10%;
+	background-color: rgba(255,255,255,0.3);
+}
+.experience-box{
+	width: 1000px;
+}
+.ex-list-content{
 
+}
+.ex-list-content .time-ex{
+	display: inline-block;
+	float: left;
+}
+.ex-list-content .content-ex{
+	float: left;
+}
