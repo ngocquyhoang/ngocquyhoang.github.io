@@ -193,13 +193,14 @@ html, body{
 	width: 1000px;
 	height: 80%;
 	top: 10%;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.4);
 }
 .experience-box{
 	width: 1000px;
 }
 .ex-list-content{
 	display: inline-block;
+	color: #313131;
 }
 .ex-list-content .time-ex{
 	display: inline-block;
@@ -209,13 +210,103 @@ html, body{
 	height: 80px;
 	font-style: italic;
 	font-size: 20px;
+	color: #fff;
 }
 .ex-list-content .content-ex{
 	display: block;
 	margin: 20px;
-	font-size: 18px;
+	font-size: 20px;
 }
 .ex-list-content .title-ex{
 	font-size: 20px;
 	font-weight: bold;
+	color: #fff;
+}
+.skills{
+	width: 100%;
+	background-color: #fff;
+	display: block;
+	position: relative;
+}
+.skills-content{
+	position: absolute;
+	width: 1000px;
+	margin: 0 auto;
+}
+.skills-content h3{
+	margin: 20px 0px 35px 20px;
+	font-size: 30px;
+	font-family: 'Lemon', cursive; 
+}
+.skills-content .list-skill{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.skill-name{
+	font-size: 23px;
+	width: 150px;
+}
+.skill-val{
+	height: 3px;
+	margin-bottom: 8px;
+	width: 660px;
+	/*color: #FF2D55;*/
+	/*background-color: #FF2D55;*/
+}
+.list-skill .html{
+	margin-right: 80px;
+}
+.list-skill .js{
+	margin-right: 45px;
+}
+.list-skill .php{
+	margin-right: 94px;
+}
+.list-skill .rb{
+	margin-right: 88px;
+}
+.list-skill .design{
+	margin-right: 15px;
+}
+.list-skill .c{
+	margin-right: 101px;
+}
+.connect{
+	width: 100%;
+	display: block;
+	position: relative;
+	background-image: url('../Images/bg5.jpg');
+}
+.connect-content{
+	position: absolute;
+	width: 1000px;
+	margin: 0 auto;
+}
+.connect-title{
+	font-size: 35px;
+	font-family: 'GeosansLight';
+	color: #fff;
+	text-align: center;
+}
+hr{
+	margin: 75px 75px 125px 75px;
+}
+.soical{
+	float: left;
+	padding:50px;
+	color: #fff;
+}
+.firts{
+	margin-left: 160px;
+}
+.fa{
+	color: #fff;
+}
+.btt{
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+}
+.btt i{
+	color: #4CD964;
 }

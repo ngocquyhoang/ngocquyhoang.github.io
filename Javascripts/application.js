@@ -3,15 +3,17 @@ $(document).ready(function() {
 	setHeightHome();
 	ExcontentCenter();
 	ExSETHEIGHT();
+	Skills_set_height();
 	$("body").mCustomScrollbar({theme:"dark-thin",scrollButtons:{enable:true}});
 	$(".experience-box").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}});
 	$('.show-me-button').click(function() {
 		homeShow();
 	});
+	CLICKSCROLL();
 });
 function  setHeight () {
 	var height = $( window ).height();
-	$('.container, .about, .experience').height(height);
+	$('.container, .about, .experience, .skills, .connect').height(height);
 }
 function setHeightHome () {
 	var height = $( window ).height();
@@ -34,4 +36,34 @@ function ExcontentCenter () {
 function ExSETHEIGHT () {
 	var height_ex = $('.experience-content').height();
 	$('.experience-box').height(height_ex);
+}
+function Skills_set_height () {
+	var height_sk = $('.skills').height();
+	var width_sk = $('.skills').width();
+	$('.skills-content').height(height_sk*0.8);
+	$('.skills-content').css('margin-left', width_sk/2-500 );
+	$('.skills-content').css('margin-top', height_sk*0.1 );
+	$('.connect-content').height(height_sk*0.8);
+	$('.connect-content').css('margin-left', width_sk/2-500 );
+	$('.connect-content').css('margin-top', height_sk*0.1 );
+}
+function CLICKSCROLL () {
+	$('.home-nav').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".container");
+	});
+	$('.about-nav').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".about");
+	});
+	$('.experience-nav').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".experience");
+	});
+	$('.skills-nav').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".skills");
+	});
+	$('.connect-nav').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".connect");
+	});
+	$('.back-to-top').click(function() {
+		$('body').mCustomScrollbar("scrollTo",".container");
+	});
 }
