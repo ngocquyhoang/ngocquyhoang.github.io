@@ -136,7 +136,7 @@ html, body{
 }
 .name{
 	top: 0px;
-	width: 208px;
+	width: 210px;
 }
 .job-1{
 	top: 45px;
@@ -199,12 +199,23 @@ html, body{
 	width: 1000px;
 }
 .ex-list-content{
-
+	display: inline-block;
 }
 .ex-list-content .time-ex{
 	display: inline-block;
 	float: left;
+	margin: 20px;
+	width: 130px;
+	height: 80px;
+	font-style: italic;
+	font-size: 20px;
 }
 .ex-list-content .content-ex{
-	float: left;
+	display: block;
+	margin: 20px;
+	font-size: 18px;
+}
+.ex-list-content .title-ex{
+	font-size: 20px;
+	font-weight: bold;
 }
