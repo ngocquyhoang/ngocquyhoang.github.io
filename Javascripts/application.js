@@ -5,7 +5,7 @@ $(document).ready(function() {
 	ExSETHEIGHT();
 	Skills_set_height();
 	$("body").mCustomScrollbar({theme:"dark-thin",scrollButtons:{enable:true}, mouseWheel:{ scrollAmount: 400 }});
-	$(".experience-box").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}}, mouseWheel:{ scrollAmount: 400 });
+	$(".experience-box").mCustomScrollbar({theme:"light-thin",scrollButtons:{enable:true}, mouseWheel:{ scrollAmount: 400 }});
 	$('.show-me-button').click(function() {
 		homeShow();
 	});
