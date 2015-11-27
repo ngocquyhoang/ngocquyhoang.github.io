@@ -10,6 +10,7 @@ $(document).ready(function() {
 		homeShow();
 	});
 	CLICKSCROLL();
+	infomation();
 });
 function  setHeight () {
 	var height = $( window ).height();
@@ -65,5 +66,13 @@ function CLICKSCROLL () {
 	});
 	$('.back-to-top').click(function() {
 		$('body').mCustomScrollbar("scrollTo",".container");
+	});
+}
+function infomation () {
+	$('.my-infomation .info-button').click(function() {
+		$('.my-details-info-box').show(500);
+	});
+	$('.my-details-info-box .close-infor-box').click(function() {
+		$('.my-details-info-box').hide(500);
 	});
 }
