@@ -1,4 +1,8 @@
 /*Geneal setting*/
+html, body{
+    height: 100%;
+    margin: 0px;
+}
 *{
 	margin: 0px;
 	padding: 0px;
@@ -21,15 +25,60 @@
     transition: 1s opacity;
     display: block;
 }
-.audio-control .mute .fa{
+.wraper-box{
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-left: 20%;
+    width: 60%;
+    height: 400px;
+    display: block;
+    background-color: #fff;
+}
+.container{
+    display: block;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(230,81,0,0.45);
+}
+/*control bar*/
+.control-bar .fa{
     font-size: 2em;
     color: #fff;
 }
-.audio-control{
-    width: 30px;
+.control-bar{
+    display: inline-flex;
     position: fixed;
     top: 5px;
-    right: 10px;
+    right: 15px;
     text-align: left;
+    z-index: 10;
+}
+.control-bar p{
+    width: 30px;
+}
+.control-bar .pause{
+    margin-right: 20px;
+}
+/*pause game*/
+.pause-game{
+    display: none;
+}
+.pause-game .lol-logo{
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+.pause-game i{
+    font-size: 3em;
+    color: #fff;
+    background-color: #ff4455;
+    padding: 10px 50px 8px;
+    margin-top: 60px;
+}
+/*select game lever*/
+.select-lever{
+    display: block;
 }
 /*Setting for game card content*/
