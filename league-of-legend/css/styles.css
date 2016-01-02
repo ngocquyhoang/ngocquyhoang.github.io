@@ -1,0 +1,35 @@
+/*Geneal setting*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.background-video video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/logo-league-of-legend-game.png) no-repeat;
+    background-size: cover; 
+    transition: 1s opacity;
+    display: block;
+}
+.audio-control .mute .fa{
+    font-size: 2em;
+    color: #fff;
+}
+.audio-control{
+    width: 30px;
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    text-align: left;
+}
+/*Setting for game card content*/
